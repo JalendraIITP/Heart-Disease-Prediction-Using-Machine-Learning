@@ -27,37 +27,30 @@ Sscaller = pickle.load(file)
 
 def lr_predictor(to_predict):
     prediction = lr_classifier.predict(to_predict)
-    print(prediction)
     return prediction
 
 def sv_predictor(to_predict):
     prediction = sv_classifier.predict(to_predict)
-    print(prediction)
     return prediction
 
 def kn_predictor(to_predict):
     prediction = kn_classifier.predict(to_predict)
-    print(prediction)
     return prediction
 
 def dt_predictor(to_predict):
     prediction = dt_classifier.predict(to_predict)
-    print(prediction)
     return prediction
 
 def rf_predictor(to_predict):
     prediction = rf_classifier.predict(to_predict)
-    print(prediction)
     return prediction
 
 def gb_predictor(to_predict):
     prediction = gb_classifier.predict(to_predict)
-    print(prediction)
     return prediction
 
 def nb_predictor(to_predict):
     prediction = nb_classifier.predict(to_predict)
-    print(prediction)
     return prediction
 
 def main():
